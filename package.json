@@ -1,0 +1,19 @@
+{
+  "name": "decentralized_lottery_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arun",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "solc": "^0.5.4",
+    "truffle-hdwallet-provider": "^1.0.4",
+    "web3": "^1.0.0-beta.46"
+  }
+}
