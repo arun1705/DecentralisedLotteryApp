@@ -8,22 +8,18 @@ contract Lottery{
     //storing addresses fo participants
     address[] public participants;
     
-   constructor () public {
+    constructor () public {
         manager =msg.sender;
-    
     }
-    
     //function to enter the lottery,we are going to make each users
     //pay a small amount to enter the lottery
     function enterlottery() public payable{
         require (msg.value > 0.01 ether);
         participants.push(msg.sender);
     }
-    
     function pickWinner () public {
        //check only that manager call the function
         require(msg.sender == manager);
-      
       // random selection of participants
       uint index = random() % participants.length;
       
