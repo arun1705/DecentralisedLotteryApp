@@ -1,11 +1,15 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
-const {interface,bytecode} = require('./compile.js');
+const {
+    interface,
+    bytecode
+} = require('./compile.js');
 const mnemonic = 'tomato rate sheriff course end labor topic above curious this rail group'
 
 const web3 = new Web3(new HDWalletProvider(
     mnemonic,
     'https://rinkeby.infura.io/v3/ff9cefedf8924477a6d236e5e36fc06b',
+    0, 3
 
 ));
 

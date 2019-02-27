@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "next dev"
+    "dev": "next dev"
   },
   "author": "arun",
   "license": "ISC",
@@ -14,7 +14,7 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "solc": "^0.4.25",
-    "truffle-hdwallet-provider": "0.0.6",
+    "truffle-hdwallet-provider": "^1.0.4",
     "web3": "^1.0.0-beta.36"
   }
 }
